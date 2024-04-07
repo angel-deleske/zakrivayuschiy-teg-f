@@ -1,1 +1,9 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --decorate-font-family: 'PressStart2P', fantasy;
+  --main-font-family: 'Inter-Variable', sans-serif;
+  --title-weight: 700;
+  --text-weight: 400;
+  background-image: var(--background-image);
+  --sparks-color: red;
+}
