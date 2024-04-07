@@ -6,4 +6,5 @@
   --text-weight: 400;
   background-image: var(--background-image);
   --sparks-color: red;
+  --contour-color: var(--accent-color);
 }
