@@ -13,6 +13,9 @@
   --background-color: #fff;
   --accent-color: #000;
   --contour-color: #000;
+  --button-text-color: #fff;
+  --text-weight: 400;
+  --title-weight: 700;
 }
 
 @media(prefers-color-scheme:light) {
@@ -25,6 +28,9 @@
   --background-color: #fff;
   --accent-color: #000;
   --button-text-color: #fff;
+  --contour-color: var(--accent-color);
+  --text-weight: 400;
+  --title-weight: 700;
   }
 }
 
@@ -38,6 +44,8 @@
   --accent-color: #00cc14;
   --button-text-color: #00cc14;
   --contour-color: #00cc14;
+  --text-weight: 465;
+  --title-weight: 785;
 }
 
 @media(prefers-color-scheme:dark) {
@@ -51,5 +59,7 @@
   --accent-color: #00cc14;
   --button-text-color: #00cc14;
   --contour-color: #00cc14;
+  --text-weight: 465;
+  --title-weight: 785;
   }
 }

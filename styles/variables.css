@@ -2,8 +2,8 @@
 :root {
   --decorate-font-family: 'PressStart2P', fantasy;
   --main-font-family: 'Inter-Variable', sans-serif;
-  --title-weight: 700;
-  --text-weight: 400;
+  --title-weight: var(--title-weight);
+  --text-weight: var(--text-weight);
   background-image: var(--background-image);
   --sparks-color: red;
   --contour-color: var(--accent-color);
