@@ -168,9 +168,10 @@
 
 .article__title {
   color: var(--accent-color);
-  padding: 4px 7px;
+  padding: 5px 8px;
   font-weight: var(--title-weight);
   font-size: 18px;
+  line-height: 21.78px;
 }
 
 .article__text {
@@ -179,7 +180,8 @@
   gap: 28px;
   font-weight: var(--text-weight);
   font-size: 18px;
-  padding: 30px 23px 0;
+  padding: 28px 23px 0;
+  line-height: 21px;
 }
 
 .card__image {
@@ -194,17 +196,20 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  margin: 25px 25px 22px;
-  gap: 5px;
+  margin: 25px 24px 25px;
 }
 
 /* кнопка с сердечком */
 .card__icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   background: var(--background-color);
   border: none;
   transition: border 0.3s ease;
-  padding-inline-end: 2px;
+  block-size: 38px;
+  margin-inline-end: 3px;
 }
 
 .card__icon-button:focus {
@@ -269,7 +274,7 @@
   gap: 8px;
   margin: 0 auto 55px;
   inline-size: 340px;
-  block-size: 53px;
+  block-size: 55px;
 }
 
 .floppy-image {
@@ -367,6 +372,10 @@
     padding-block-start: 120px;
   }
 
+  .content {
+    gap: 50px;
+  }
+
   .theme-menu__list {
     padding-inline-start: 20px;
     padding-block-start: 4px;
@@ -376,17 +385,17 @@
     padding: 5px 10px;
   }
 
-  .card__label {
-    top: 24px;
-    right: 12px;
-  }
-
   .article__text {
     padding: 25px 25px 22px;
   }
 
+  .card__label {
+    top: 23px;
+    right: 12px;
+  }
+
   .button-like-container {
-    margin: 0 25px 22px;
+    margin: 0 25px 24px;
   }
 
   .card__icon-button {
