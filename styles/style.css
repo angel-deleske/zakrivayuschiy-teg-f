@@ -398,11 +398,8 @@
     margin: 0 25px 24px;
   }
 
-  .card__like-button {
-    margin-block-start: 2px;
-  }
-
-  .card__icon-button {
+  .card__like-button,
+  .card__icon-button{
     margin-block-start: 2px;
   }
 
